@@ -12,6 +12,7 @@ It allows users to view information about animals through a dynamic website conn
 - PHP
 - HTML
 - CSS
+- JavaScript
 - MySQL
 - NetBeans IDE
 
