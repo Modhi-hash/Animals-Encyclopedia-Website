@@ -3,10 +3,8 @@
 This project is a simple web-based Animal Encyclopedia developed using PHP and MySQL.
 It allows users to view information about animals through a dynamic website connected to a database.
 
-## Team Members
+## Developer
 - Modhi Bandar Alshammari
-- Dana Shaynan Aldossry
-- Najla Mubarak Aldossari
 
 ## Technologies Used
 - PHP
