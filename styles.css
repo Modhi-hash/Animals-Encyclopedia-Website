@@ -1,5 +1,5 @@
 body {
-  background-image: url('Imgs/Animal.jpg');
+  background-image: url('img/Animal.jpg');
   background-size: cover;
   background-position: center;
   font-family: Tahoma, sans-serif;
@@ -11,33 +11,41 @@ h1 {
   margin-top: 20px;
   font-size: 36px;
   background-color: bisque;
-  border: 4px outset darkolivegreen;
+  border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 20px;
   padding: 8px ;
 }
 
 p {
-  color: antiquewhite;
-  font-size: 14pt;
-  border-radius: 20px;
-  border: 3px outset antiquewhite;
-  padding: 20px 30px;
-  margin: 30px auto;
+  color: white;
+  font-size: 1.1rem;    
+  font-weight: 300;      
+  letter-spacing: 0.5px;  
+  background: rgba(255, 255, 255, 0.1); 
+  backdrop-filter: blur(10px); 
+  padding: 20px 40px;    
+  border-radius: 50px;   
+  border: 1px solid rgba(255, 255, 255, 0.3); 
+  max-width: 600px;        
+  margin: 20px auto;     
+  line-height: 1.5;
   text-align: center;
-  max-width: 800px;
+  
 }
 
 img {
   width: 500px;
   height: 300px;
   margin: 20px auto;
-  border: 5px inset darkolivegreen;
-  background-color: bisque;
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 20px;
-  padding: 10px;
   object-fit: cover;
+  display: block; 
+  position: relative;
+  z-index: 10;
+   backdrop-filter: none !important; 
+  filter:none !important;
 }
-
 
 caption {
   color: darkolivegreen;
@@ -51,10 +59,12 @@ table {
   border-collapse: collapse;
   width: 85%;
   margin: 30px auto;
-  border-radius: 10px;
   overflow: hidden;
+   border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color:rgba(255, 255, 255, 0.1);
+  border-radius: 50px;
+   backdrop-filter: blur(10px);  
 }
-
 
 th {
   background-color: darkolivegreen;
@@ -86,45 +96,49 @@ a {
   width: 220px;
 }
 
-button {
-  text-decoration: none;
-  background-color: darkolivegreen;
-  display: block;
-  text-align: center;
-  margin: 10px auto;
-  padding: 12px 20px;
-  font-weight: bold;
-  font-size: 18px;
-  color: aliceblue;
-  border-radius: 20px;
-  transition: all 0.2s ease-in-out;
-  width: 220px;
-}
+ div:not(.image-container):not(.buttons) {
 
-
- div {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background: rgba(255, 255, 255, 0.1); 
+  backdrop-filter: blur(15px);          
+  padding: 50px;
+  border-radius: 30px;                 
+  border: 1px solid rgba(255, 255, 255, 0.2); 
+  max-width: 450px;                    
+  margin: 50px auto;                   
+}
+.ending-box {
+  padding: 40px 60px;    
+  max-width: 650px;       
+  line-height: 1.8;       
+  text-align: center;
+  font-style: italic;    
 }
 
 label {
-  color: darkgreen;
-  margin-top: 10px;
-  font-size: 16pt;
-  background-color: bisque;
-  border-radius: 10px;
-  border: 2px solid darkolivegreen;
-  padding: 5px 10px;
+
+  color: white;             
+  margin-top: 15px;
+  font-size: 14pt;
+  align-self: flex-start;   
+  margin-left: 5%;         
+  background: none;       
+  border: none;             
+}
   
+input {
+ 
+  width: 90%;
+  padding: 12px;
+  margin: 10px 0;
+  font-size: 12pt;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.15); 
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;                         
+  outline: none;
 }
 
-input {
-  width: 90%;
-  padding: 8px;
-  margin: 13px 0;
-  font-size: 14pt;
-  border-radius: 10px;
-  border: 2px solid darkolivegreen;
-}
