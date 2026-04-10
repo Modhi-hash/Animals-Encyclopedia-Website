@@ -10,10 +10,11 @@
 
     <h1>Animal Encyclopedia</h1>
 
-    <p>
-        Welcome to our educational animal encyclopedia.
-        Please choose one of the following options.
+    <p >
+       Explore the wonders of the animal kingdom.<br>
+       Discover detailed insights into their habitats, diets, and secrets.
     </p>
+
 
     <div>
         <a href="Login.php">Login</a>
